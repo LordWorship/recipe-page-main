@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.overview-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 25px;
+}
+p {
+    font-size: 10px;
+}
